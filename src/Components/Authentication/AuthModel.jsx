@@ -49,7 +49,7 @@ export default function AuthModel({open,handleClose}) {
         </h1>
 
         <Button fullWidth variant='outlined' onClick={handleNavigate} sx={{borderRadius:"29px",py:"15px"}}>
-        {location.pathname=="/signup"?"SignIn":"SignUp"}
+        {location.pathname=="/signup"?"signin":"signup"}
         </Button>
         </Box>
       </Modal>
